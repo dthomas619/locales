@@ -3,13 +3,13 @@
     "customActions": {
       "modals": {
         "confirmModal": {
-          "cancelButton": "Resolve issues",  // Your custom text
+          "cancelButton": "Resolve issues",  
           "continueButton": "Continue",
           "heading": "Confirm Action"
         },
         "outcomeModals": {
           "acknowledgementModal": {
-            "defaultContinueButton": "Continue & discard",  // Your custom text
+            "defaultContinueButton": "Continue & discard",  
             "heading": "Action Complete"
           }
         }
