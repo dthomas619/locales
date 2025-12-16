@@ -1,16 +1,9 @@
 {
-  "jobs": {
-    "customActions": {
-      "modals": {
-        "confirmModal": {
-          "cancelButton": "Resolve issues"
-        },
-        "outcomeModals": {
-          "acknowledgementModal": {
-            "defaultContinueButton": "Continue & discard"
-          }
-        }
-      }
-    }
+  "submitWithErrors": {
+    "guardrail": {
+      "content": "Are you sure you want to continue? If you continue without resolving the invalid records in your file, they will be discarded and removed from your import."
+    },
+    "confirmButton": "Continue & discard",
+    "cancelButton": "Resolve issues"
   }
 }
