@@ -1,9 +1,19 @@
 {
-  "submitWithErrors": {
-    "guardrail": {
-      "content": "Are you sure you want to continue? If you continue without resolving the invalid records in your file, they will be discarded and removed from your import."
-    },
-    "confirmButton": "Continue & discard",
-    "cancelButton": "Resolve issues"
+  "jobs": {
+    "customActions": {
+      "modals": {
+        "confirmModal": {
+          "cancelButton": "Resolve issues",  // Your custom text
+          "continueButton": "Continue",
+          "heading": "Confirm Action"
+        },
+        "outcomeModals": {
+          "acknowledgementModal": {
+            "defaultContinueButton": "Continue & discard",  // Your custom text
+            "heading": "Action Complete"
+          }
+        }
+      }
+    }
   }
 }
